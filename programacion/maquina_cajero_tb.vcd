@@ -1,0 +1,875 @@
+$date
+	Sun Oct 11 14:11:33 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 1 ! pulso $end
+$var wire 1 " Vacio $end
+$var wire 3 # Saldo [2:0] $end
+$var wire 1 $ Login $end
+$var wire 1 % Encendido $end
+$var wire 1 & Display_Saldo $end
+$var wire 3 ' Display_Login [2:0] $end
+$var reg 3 ( checks [2:0] $end
+$var reg 1 ) clock $end
+$var reg 1 * on $end
+$var reg 4 + password [3:0] $end
+$var reg 1 , push1 $end
+$var reg 1 - push2 $end
+$var reg 1 . reset $end
+$scope module FSM $end
+$var wire 1 % Encendido $end
+$var wire 1 " Vacio $end
+$var wire 3 / checks [2:0] $end
+$var wire 1 ) clock $end
+$var wire 1 0 contador $end
+$var wire 1 * on $end
+$var wire 4 1 password [3:0] $end
+$var wire 1 ! pulso $end
+$var wire 1 , push1 $end
+$var wire 1 - push2 $end
+$var wire 1 . reset $end
+$var wire 1 2 retiro $end
+$var wire 1 3 consulta $end
+$var wire 1 4 Signal $end
+$var wire 3 5 Saldo [2:0] $end
+$var wire 1 $ Login $end
+$var wire 3 6 Estado [2:0] $end
+$var wire 1 & Display_Saldo $end
+$var wire 3 7 Display_Login [2:0] $end
+$scope module antirebote1 $end
+$var wire 1 8 NS $end
+$var wire 1 , Push $end
+$var wire 1 2 Y $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var wire 1 9 AS $end
+$scope module FF1 $end
+$var wire 1 8 D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 9 Y $end
+$upscope $end
+$upscope $end
+$scope module antirebote2 $end
+$var wire 1 : NS $end
+$var wire 1 - Push $end
+$var wire 1 3 Y $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var wire 1 ; AS $end
+$scope module FF1 $end
+$var wire 1 : D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 ; Y $end
+$upscope $end
+$upscope $end
+$scope module cajero $end
+$var wire 1 & Display_Saldo $end
+$var wire 1 < NS1 $end
+$var wire 1 = NS2 $end
+$var wire 1 > NS3 $end
+$var wire 1 ) clock $end
+$var wire 1 3 consulta $end
+$var wire 1 0 contador $end
+$var wire 1 * on $end
+$var wire 1 . reset $end
+$var wire 1 2 retiro $end
+$var wire 1 $ login $end
+$var wire 3 ? Estado [2:0] $end
+$var wire 1 @ AS3 $end
+$var wire 1 A AS2 $end
+$var wire 1 B AS1 $end
+$scope module FF1 $end
+$var wire 1 < D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 B Y $end
+$upscope $end
+$scope module FF2 $end
+$var wire 1 = D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 A Y $end
+$upscope $end
+$scope module FF3 $end
+$var wire 1 > D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 @ Y $end
+$upscope $end
+$upscope $end
+$scope module counter $end
+$var wire 1 . reset $end
+$var wire 1 4 retiro $end
+$var reg 3 C count [2:0] $end
+$upscope $end
+$scope module logged $end
+$var wire 3 D Int [2:0] $end
+$var wire 1 $ Login $end
+$var wire 1 E NS1 $end
+$var wire 1 F NS2 $end
+$var wire 4 G Pin [3:0] $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var wire 3 H Display [2:0] $end
+$var wire 1 I AS2 $end
+$var wire 1 J AS1 $end
+$scope module FF1 $end
+$var wire 1 E D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 J Y $end
+$upscope $end
+$scope module FF2 $end
+$var wire 1 F D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 I Y $end
+$upscope $end
+$upscope $end
+$scope module retirar $end
+$var wire 1 K NS1 $end
+$var wire 1 L NS2 $end
+$var wire 1 ! Pulso $end
+$var wire 1 4 Y $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var wire 1 M AS2 $end
+$var wire 1 N AS1 $end
+$scope module FF1 $end
+$var wire 1 K D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 N Y $end
+$upscope $end
+$scope module FF2 $end
+$var wire 1 L D $end
+$var wire 1 ) clock $end
+$var wire 1 . reset $end
+$var reg 1 M Y $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+xN
+xM
+xL
+xK
+xJ
+xI
+bx H
+bx G
+xF
+xE
+bx D
+b111 C
+xB
+xA
+x@
+bx ?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+bx 7
+bx 6
+b111 5
+x4
+x3
+x2
+bx 1
+10
+bx /
+x.
+x-
+x,
+bx +
+x*
+1)
+bx (
+bx '
+x&
+x%
+x$
+b111 #
+0"
+x!
+$end
+#1
+0F
+0>
+0=
+0K
+0%
+0!
+0$
+b0 6
+b0 ?
+0;
+09
+0M
+04
+0L
+0N
+b0 '
+b0 7
+b0 H
+0I
+0J
+0&
+0@
+0A
+0B
+0)
+1.
+#2
+1)
+#3
+0)
+0E
+0<
+03
+02
+0.
+b0 (
+b0 /
+b0 D
+b0 +
+b0 1
+b0 G
+0:
+0-
+08
+0,
+0*
+#4
+1)
+#5
+0)
+12
+18
+1,
+#6
+02
+19
+1)
+#7
+0)
+13
+1:
+1-
+08
+0,
+#8
+03
+1;
+09
+1)
+#9
+0)
+1<
+0:
+0-
+1*
+#10
+1%
+b1 6
+b1 ?
+1B
+0;
+1)
+#11
+0)
+12
+18
+1,
+#12
+02
+19
+1)
+#13
+0)
+13
+1:
+1-
+08
+0,
+#14
+03
+09
+1;
+1)
+#15
+0)
+b1 (
+b1 /
+b1 D
+b100 +
+b100 1
+b100 G
+0:
+0-
+#16
+0;
+1)
+#17
+0)
+0E
+b11 (
+b11 /
+b11 D
+b10 +
+b10 1
+b10 G
+#18
+1)
+#19
+0)
+b111 (
+b111 /
+b111 D
+b101 +
+b101 1
+b101 G
+#20
+1)
+#21
+0)
+1E
+b1 (
+b1 /
+b1 D
+b10 +
+b10 1
+b10 G
+#22
+b1 '
+b1 7
+b1 H
+1J
+1)
+#23
+0)
+0E
+1F
+b11 (
+b11 /
+b11 D
+b110 +
+b110 1
+b110 G
+#24
+b11 '
+b11 7
+b11 H
+1I
+0J
+1)
+#25
+0)
+b111 (
+b111 /
+b111 D
+b101 +
+b101 1
+b101 G
+#26
+1)
+#27
+0)
+b1 (
+b1 /
+b1 D
+b10 +
+b10 1
+b10 G
+#28
+1)
+#29
+0)
+b11 (
+b11 /
+b11 D
+b110 +
+b110 1
+b110 G
+#30
+1)
+#31
+0)
+1E
+b111 (
+b111 /
+b111 D
+b1001 +
+b1001 1
+b1001 G
+#32
+0<
+1=
+1$
+b111 '
+b111 7
+b111 H
+1J
+1)
+#33
+0)
+#34
+1=
+b10 6
+b10 ?
+0B
+1A
+1)
+#35
+0)
+1<
+12
+18
+1,
+#36
+1K
+0=
+1!
+1<
+02
+b100 6
+b100 ?
+19
+1B
+1)
+#37
+0)
+08
+0,
+#38
+b110 #
+b110 5
+b110 C
+0<
+1=
+1%
+0!
+0K
+b1 6
+b1 ?
+0A
+14
+1L
+1N
+09
+1)
+#39
+0)
+#40
+b10 6
+b10 ?
+1M
+04
+0L
+0N
+1A
+0B
+1)
+#41
+0)
+0=
+1>
+13
+1:
+1-
+#42
+1<
+0>
+03
+b101 6
+b101 ?
+0A
+1&
+1@
+0M
+1;
+1)
+#43
+0)
+0:
+0-
+#44
+0<
+1=
+b1 6
+b1 ?
+0;
+0&
+0@
+1B
+1)
+#45
+0)
+#46
+1=
+b10 6
+b10 ?
+0B
+1A
+1)
+#47
+0)
+1<
+12
+18
+1,
+#48
+1K
+0=
+1!
+1<
+02
+b100 6
+b100 ?
+19
+1B
+1)
+#49
+0)
+08
+0,
+#50
+b101 #
+b101 5
+b101 C
+0<
+1=
+1%
+0!
+0K
+b1 6
+b1 ?
+0A
+14
+1L
+1N
+09
+1)
+#51
+0)
+#52
+b10 6
+b10 ?
+1M
+04
+0L
+0N
+1A
+0B
+1)
+#53
+0)
+1<
+12
+18
+1,
+#54
+1K
+0=
+1!
+1<
+b100 6
+b100 ?
+02
+1B
+0M
+19
+1)
+#55
+0)
+08
+0,
+#56
+b100 #
+b100 5
+b100 C
+0<
+1=
+1%
+0!
+0K
+b1 6
+b1 ?
+09
+14
+1L
+1N
+0A
+1)
+#57
+0)
+#58
+1=
+b10 6
+b10 ?
+0B
+1A
+04
+0L
+0N
+1M
+1)
+#59
+0)
+1<
+12
+18
+1,
+#60
+1K
+0=
+1!
+1<
+02
+b100 6
+b100 ?
+19
+0M
+1B
+1)
+#61
+0)
+08
+0,
+#62
+b11 #
+b11 5
+b11 C
+0<
+1=
+1%
+0!
+0K
+b1 6
+b1 ?
+0A
+14
+1L
+1N
+09
+1)
+#63
+0)
+#64
+b10 6
+b10 ?
+1M
+04
+0L
+0N
+1A
+0B
+1)
+#65
+0)
+1<
+12
+18
+1,
+#66
+1K
+0=
+1!
+1<
+b100 6
+b100 ?
+02
+1B
+0M
+19
+1)
+#67
+0)
+08
+0,
+#68
+b10 #
+b10 5
+b10 C
+0<
+1=
+1%
+0!
+0K
+b1 6
+b1 ?
+09
+14
+1L
+1N
+0A
+1)
+#69
+0)
+#70
+1=
+b10 6
+b10 ?
+0B
+1A
+04
+0L
+0N
+1M
+1)
+#71
+0)
+1<
+12
+18
+1,
+#72
+1K
+0=
+1!
+1<
+02
+b100 6
+b100 ?
+19
+0M
+1B
+1)
+#73
+0)
+08
+0,
+#74
+b1 #
+b1 5
+b1 C
+0<
+1=
+1%
+0!
+0K
+b1 6
+b1 ?
+0A
+14
+1L
+1N
+09
+1)
+#75
+0)
+#76
+b10 6
+b10 ?
+1M
+04
+0L
+0N
+1A
+0B
+1)
+#77
+0)
+0=
+1>
+13
+1:
+1-
+#78
+1<
+0>
+03
+b101 6
+b101 ?
+0A
+1&
+1@
+0M
+1;
+1)
+#79
+0)
+0:
+0-
+#80
+0<
+1=
+b1 6
+b1 ?
+0;
+0&
+0@
+1B
+1)
+#81
+0)
+#82
+1=
+b10 6
+b10 ?
+0B
+1A
+1)
+#83
+0)
+1<
+12
+18
+1,
+#84
+1K
+0=
+1!
+1<
+02
+b100 6
+b100 ?
+19
+1B
+1)
+#85
+0)
+08
+0,
+#86
+1"
+00
+b0 #
+b0 5
+b0 C
+1<
+0=
+1%
+0!
+0K
+b1 6
+b1 ?
+0A
+14
+1L
+1N
+09
+1)
+#87
+0)
+#88
+1M
+04
+0L
+0N
+1)
